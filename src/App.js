@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import FormExample from './ui/components/FormExample';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Form with Formik & Ant Design </h1>
+      <h3>Form only with Formik</h3>
+      <FormExample/>
+
+      <h3>Form with Formik and Ant Design</h3>
+     {/*  <FormExample/> */}
     </div>
   );
 }
